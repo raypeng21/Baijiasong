@@ -1,0 +1,53 @@
+.footer{
+    margin: 0 10% 0 10%;
+    display: flex;
+    background-color: rgb(220, 220, 220);
+    .left{
+        flex: 1;
+        margin: 2%;
+
+        .link{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 12px;
+            a{
+                margin: 0 10px 0 0;
+                cursor: pointer;
+                text-decoration: none;     
+                color:black;       
+            }
+            
+        }
+
+        .info{
+
+
+            p{
+                a{
+                    color:black;       
+                    text-decoration: none;     
+                }
+
+            }
+        }
+    }
+
+
+
+    .right{
+        flex: 2;
+
+
+        .imgContainer{
+            width: 900px;
+            img{
+                width: 100%;
+            }            
+
+        }
+
+
+    }
+
+}

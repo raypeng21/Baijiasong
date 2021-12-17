@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    margin: 0 15% 0 15%;
+
+
+    .info{
+        flex: 1;
+        border: black;
+        border-style: solid;
+        border-width: 1px;
+        // margin: 0 20% 5% 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+        .title{
+            margin: 30px ;
+            h1{
+                font-size: 40px;
+            }
+        }
+
+        font-size: 16px;
+
+        .content{
+            margin: 30px ;
+
+            font-size: 24px;        
+        }
+
+    }
+
+
+    .culture{
+        flex: 1;
+
+        .imgContainer{
+            margin: 0 0 0 0;
+            
+
+ 

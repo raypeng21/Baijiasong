@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
+.topbar{
+    background-color: white;
+    margin: 0 10% 0 10%;
+
+
+
+    .container{
+
+        display: flex;
+        flex-direction: row;
+        
+        .logo{
+            flex:1;
+            img{
+                margin: 20% 0 0 0;
+                height: 80px;
+                width: 95px;
+            }
+        }
+
+
+        .left{
+            flex:4;
+            font-family: 'Ma Shan Zheng', cursive;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            justify-content: space-between;
+            .cn{
+                h1{
+                    font-size: 30px;
+                }
+            }
+
+            .en{
+                h2{
+                    font-size: 24px;
+                }
+            }
+
+        }
+
+
+        .right{
+            flex:6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ul{
+                margin: 10px;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                overflow: hidden;
+                justify-content: space-between;
+                font-size: 24px;
+                li{
+                    margin: 0 10px 0 0;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+}
