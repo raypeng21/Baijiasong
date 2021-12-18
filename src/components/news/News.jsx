@@ -1,9 +1,9 @@
 import React from 'react'
-
-export default function News() {
+import Timer from '../Timert/timer'
+export default function News(props) {
     return (
         <div className='news'>
-            here is news
+            <Timer startCount = "100"/>
         </div>
     )
 }

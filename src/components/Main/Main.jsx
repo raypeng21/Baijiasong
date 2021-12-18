@@ -18,6 +18,7 @@ class Main extends Component {
     return (
       <div>
         <Topbar />
+        
         <div>
         <Switch location={this.props.location}>
                   {/* <Route path='/home' component={HomePage} /> */}

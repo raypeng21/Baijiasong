@@ -1,0 +1,17 @@
+
+
+.projectList{
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    padding: 0.7em;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    font-weight: 800;
+
+    &.active{
+        background-color: white;
+        color: #ab3130;
+    }
+}
