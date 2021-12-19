@@ -41,7 +41,7 @@ export const 中原 = [
     id: 1,
     title: "中原",
     img:
-      "http://www.jiangsuzhongyuan.com/img/bg001.jpg",
+      "https://i.imgur.com/44SvYzz.jpg"
   },
 ];
 
