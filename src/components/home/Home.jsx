@@ -7,14 +7,20 @@ import Projects from "../project/Projects";
 import Service from "../service/Service";
 import Contact from "../contact/Contact";
 import Footer from "../footer/Footer";
+import "./home.scss"
 
 export default function Home() {
     return (
-        <div>
-        <News />
-        <Projects />
-        <Service />
-        <Contact />
+        <div className="home">
+            <div className="imgContainer">
+
+            <img src="/assets/background.jpg" alt="" />
+
+            </div>
+
+            <Projects />
+            <Service />
+            <Contact />
 
         </div>
     )

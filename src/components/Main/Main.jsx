@@ -8,7 +8,6 @@ import Service from '../service/Service';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
 import { Switch, Route, Redirect,withRouter } from 'react-router-dom';
-
 class Main extends Component {
 
 
@@ -17,8 +16,9 @@ class Main extends Component {
 
     return (
       <div>
-        <Topbar />
         
+        <Topbar />
+
         <div>
         <Switch location={this.props.location}>
                   {/* <Route path='/home' component={HomePage} /> */}

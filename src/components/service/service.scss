@@ -1,8 +1,7 @@
 .service{
     .word{
-
-        background-color: black;
-        position: relative;
+        margin: 2%;
+        font-size: 38px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -12,5 +11,6 @@
 
 
     .ratateContainer{
+        padding: 20px;
     }
 }

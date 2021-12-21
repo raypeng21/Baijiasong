@@ -1,6 +1,6 @@
 import React from "react";
 import "./Carousel.scss"
-
+import { Carousel } from "antd";
 function Carousel(props) {
   // active 当前轮播激活的索引
   const [active, setActive] = React.useState(0);

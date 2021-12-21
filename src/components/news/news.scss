@@ -1,0 +1,14 @@
+.news{
+    display: flex;
+    .left{
+        flex:1;
+        margin: 0 1% 0 15%;
+        width: 500px;
+    }
+    .right{
+        flex:1;
+        margin: 0 15% 0 1% ;
+        width: 500px;
+    }
+
+}
