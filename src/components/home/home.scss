@@ -1,15 +1,55 @@
 .home{
 
-    .imgContainer{
+    .news{
+        @media(max-width:768px){
 
-        width: 800px;
-        img{
-            position: absolute;
-            width: 100%;
-            z-index: 1;
+            }
+    }
+    .basicinfo{
+        display: flex;
+        flex-direction: row;
+        margin: 0 15% 2% 15%;
+        border-style: solid;
 
+        @media(max-width:768px){
+            margin: 0;  
+            flex-direction: column;
+
+          }
+        .imgContainer{
+        flex: 1;
+            img{
+                width: 450px;
+                @media(max-width:768px){
+                    width: 100%;
+
+        
+                  }
+            }
         }
+        .text{
+        flex: 2;
+        font-size: 18px;
+            h1{
+                font-weight: bold;
+            }
+        }
+    }
 
+    .project{
+        margin: 0 15% 2% 15%;
+
+    }
+
+    .service{
+        p{
+            font-size: 20px;
+            color: brown;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
     }
 
 }

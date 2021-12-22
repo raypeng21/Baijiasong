@@ -1,14 +1,37 @@
 .news{
     display: flex;
-    .left{
-        flex:1;
-        margin: 0 1% 0 15%;
-        width: 500px;
+    flex-direction: column;
+
+    .word{
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 2% 0;
+        
+        @media(max-width:768px){
+            flex-direction: column;
+
+            }
+        .left{
+            flex:1;
+            margin: 0 1% 0 15%;
+            width: 500px;
+            @media(max-width:768px){
+                width: 100%;
+                margin: 0;
+                font-size: 10px;
+                }
+        }
+        .right{
+            flex:1;
+            margin: 0 15% 0 1% ;
+            width: 500px;
+            @media(max-width:768px){
+                width: 100%;
+                margin: 0;
+                font-size: 10px;
+                }
+        }
     }
-    .right{
-        flex:1;
-        margin: 0 15% 0 1% ;
-        width: 500px;
-    }
+
 
 }

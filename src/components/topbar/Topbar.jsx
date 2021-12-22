@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "./topbar.scss"
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
-import { NavLink,Link } from 'react-router-dom';
+import {NavbarBrand, Nav,} from 'reactstrap';
 
 
 class Topbar extends Component {

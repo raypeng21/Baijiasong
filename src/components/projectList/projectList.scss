@@ -11,6 +11,20 @@
     overflow: hidden;
     font-weight: 800;
 
+    @media(max-width:768px){
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    &:hover{
+        background-color: brown;
+        color: white;
+        cursor: pointer;
+    }
+
     &.active{
         background-color: white;
         color: #ab3130;

@@ -2,6 +2,11 @@
     margin: 0 15% 0 15%;
     display: flex;
     background-color: rgb(220, 220, 220);
+
+    @media(max-width:768px){
+        flex-direction: column;
+
+          }
     .left{
         flex: 1;
         margin: 2%;
@@ -15,7 +20,13 @@
                 margin: 0 10px 0 0;
                 cursor: pointer;
                 text-decoration: none;     
-                color:black;       
+                color:black;    
+                   
+
+                &:hover{
+                    color: white;
+                    background-color: brown;
+                }
             }
             
         }
@@ -24,12 +35,23 @@
 
 
             p{
+
+                @media(max-width:768px){
+                    margin-top: 5px;
+                    font-size: 10px;
+                  }   
                 a{
                     color:black;       
                     text-decoration: none;     
                 }
 
             }
+        }
+
+        .copyright{
+            @media(max-width:768px){
+                font-size: 10px;
+                          }   
         }
     }
 
@@ -41,8 +63,12 @@
 
         .imgContainer{
             width: 900px;
+            @media(max-width:768px){
+                width: 100%;
+            }   
             img{
                 width: 100%;
+                
             }            
 
         }
