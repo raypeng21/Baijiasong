@@ -20,30 +20,56 @@ class Gallery extends Component {
     });
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+    }, 0);
+  };
+
   render() {
     return (
-      <div>
+      <div className="gallery">
         {/* <Carousel
           asNavFor={this.state.nav}
           touchMove={false}
           dots={false}
           ref={carousel => (this.media = carousel)}
         >
-          <div>
-          <img src="assets/2.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/3.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/4.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/5.png" alt="" />
-          </div>
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/1.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/2.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/3.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/4.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/5.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/6.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/7.png" style={{ width: '100%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/8.png" style={{ width: '100%' }} />
+          </a>
         </Carousel> */}
+
         <Carousel
-          slidesToShow={2}
+          slidesToShow={3}
           centerMode={true}
           asNavFor={this.state.media}
           draggable={true}
@@ -51,32 +77,40 @@ class Gallery extends Component {
           swipeToSlide={true}
           touchThreshold={100}
           focusOnSelect={true}
+          dots = {true}
           autoplay
         >
-          <div>
-          <img src="assets/1.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/2.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/3.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/4.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/5.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/6.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/7.png" alt="" />
-          </div>
-          <div>
-          <img src="assets/8.png" alt="" />
-          </div>
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/1.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/2.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/3.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/4.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/5.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/6.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/7.png" style={{ width: '99%' }} />
+          </a>
+
+          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/8.png" style={{ width: '99%' }} />
+          </a>
         </Carousel>
       </div>
     );

@@ -1,16 +1,137 @@
 .service{
+    z-index: 2;
     .word{
-        margin: 2%;
-        font-size: 38px;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+
+        h2{
+            margin: 2%;
+            font-size: 38px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 20px;
+        }
 
 
     }
 
 
     .ratateContainer{
-        padding: 20px;
+        margin: 10%;
+    }
+
+
+    .serviceList1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 15% 0 15%;
+        .list{
+            background-color: rgb(226, 226, 226);
+            margin: 10px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+
+            &:hover{
+                background-color: brown;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    
+    .serviceList2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 15% 0 15%;
+        .list{
+            background-color: rgb(226, 226, 226);
+            margin: 10px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+
+            &:hover{
+                background-color: brown;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+    }
+    .serviceList3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 15% 0 15%;
+        .list{
+            background-color: rgb(226, 226, 226);
+            margin: 10px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+
+            &:hover{
+                background-color: brown;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    .serviceList4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 15% 0 15%;
+        .list{
+            background-color: rgb(226, 226, 226);
+            margin: 10px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+
+            &:hover{
+                background-color: brown;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+    }
+    .serviceList5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 15% 0 15%;
+        .list{
+            background-color: rgb(226, 226, 226);
+            margin: 10px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+
+            &:hover{
+                background-color: brown;
+                color: white;
+                cursor: pointer;
+            }
+        }
     }
 }

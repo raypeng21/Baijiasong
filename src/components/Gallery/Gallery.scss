@@ -1,14 +1,59 @@
 /* For demo */
+
+.gallert{
+  z-index: 1;
+}
+
+.ant-carousel{
+margin: 0 15% 0 15%;  
+}
+
 .ant-carousel .slick-slide {
-    height: 100%;
+  
     line-height:160px;
-    background: #364d79;
+    height: 200px;
+    background: white;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
   }
   
-  .ant-carousel .slick-slide h3 {
-    color: #fff;
+  .slick-list{
+    height: 50% !important;
+    width: 100%;
   }
+
+  .slick-track{
+    color: #fff;
+    width: 100%;
+    height: 50%;
+  }
+
+  .slick-slide{
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    div{
+      width: 100%;
+      height: 50% ;
+    }
+  }
+
+
+//dots样式的修改
+
+    .slick-dots li button {
+        width: 15px !important ;
+        height: 15px !important;
+        background: brown !important; // 改变dots的颜色
+        border-radius: 100% !important;
+    }
+    .slick-dots li {
+      width: 30px !important ;
+    }
+    .slick-dots li.slick-active {
+        width: 28px !important ;
+    }
+
+
