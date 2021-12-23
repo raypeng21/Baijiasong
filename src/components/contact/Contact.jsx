@@ -14,7 +14,7 @@ export default function Contact() {
         setMessage(true)
 
 
-        emailjs.sendForm('gmail', 'protfolio_temp', e.target, 'user_XOOjPjh06BUfF4OqOMyw0')
+        emailjs.sendForm('gmail', 'baijiasong_temp', e.target, 'user_XOOjPjh06BUfF4OqOMyw0')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

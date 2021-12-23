@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import { Carousel } from "antd";
 import "./Gallery.scss"
-function onChange(a, b, c) {
-  console.log(a, b, c);
-}
+
 
 class Gallery extends Component {
   state = {
@@ -74,36 +71,35 @@ class Gallery extends Component {
           dots = {true}
           autoplay
         >
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/1.png" style={{ width: '99%' }} />
+          <a href = "assets/1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/1.png"  alt="" style={{ width: '99%' }} />
+          </a>
+          <a href = "assets/2.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/2.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/2.png" style={{ width: '99%' }} />
+          <a href = "assets/3.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/3.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/3.png" style={{ width: '99%' }} />
+          <a href = "assets/4.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/4.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/4.png" style={{ width: '99%' }} />
+          <a href = "assets/5.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/5.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/5.png" style={{ width: '99%' }} />
+          <a href = "assets/6.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/6.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/6.png" style={{ width: '99%' }} />
+          <a href = "assets/7.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/7.png" alt="" style={{ width: '99%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/7.png" style={{ width: '99%' }} />
-          </a>
-
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/8.png" style={{ width: '99%' }} />
+          <a href = "assets/8.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/8.png" alt="" style={{ width: '99%' }} />
           </a>
         </Carousel>
       </div>

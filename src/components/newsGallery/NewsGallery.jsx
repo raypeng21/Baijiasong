@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import { Carousel } from "antd";
 import "./newsgallery.scss"
-function onChange(a, b, c) {
-  console.log(a, b, c);
-}
 
 class NewsGallery extends Component {
   state = {
@@ -31,24 +27,24 @@ class NewsGallery extends Component {
           dots={false}
           ref={carousel => (this.media = carousel)}
         >
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n1.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n1.png"  alt=""style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n2.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n2.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n3.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n3.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n4.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n4.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n5.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n5.png" alt="" style={{ width: '100%' }} />
           </a>
         </Carousel>
 
@@ -64,24 +60,24 @@ class NewsGallery extends Component {
           dots = {true}
           autoplay
         >
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n1.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n1.png"  alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n2.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n2.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n3.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n3.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n4.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n4.png" alt="" style={{ width: '100%' }} />
           </a>
 
-          <a style={{ display: 'inline-block',height: this.state.imgHeight}}>
-          <img src="assets/n5.png" style={{ width: '100%' }} />
+          <a href = "assets/n1.png" style={{ display: 'inline-block',height: this.state.imgHeight}}>
+          <img src="assets/n5.png" alt="" style={{ width: '100%' }} />
           </a>
         </Carousel>
       </div>

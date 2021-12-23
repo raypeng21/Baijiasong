@@ -1,9 +1,7 @@
 import React from 'react'
 import { List, Typography, Divider } from 'antd';
-import 'antd/dist/antd.css';
 import "./news.scss"
 import NewsGallery from '../newsGallery/NewsGallery';
-import Gallery from '../Gallery/Gallery'
 
 const data1 = [
     '首条以中方为主投资建设的国际铁路全线通车运营',
@@ -39,7 +37,7 @@ export default function News(props) {
             dataSource={data1}
             renderItem={(item)=> (
             <List.Item>
-            <Typography.Text>[行业]</Typography.Text> <a>{item}</a>
+            <Typography.Text>[行业]</Typography.Text> <a href ="http://www.chinajsb.cn/" >{item}</a>
             </List.Item>
             )}
         />
@@ -54,7 +52,7 @@ export default function News(props) {
             dataSource={data2}
             renderItem={item => (
                 <List.Item>
-            <Typography.Text>[民生]</Typography.Text> <a>{item}</a>
+            <Typography.Text>[民生]</Typography.Text> <a href ="http://www.chinajsb.cn/">{item}</a>
             </List.Item>
         )}
         />
