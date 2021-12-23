@@ -10,7 +10,10 @@ import Footer from '../footer/Footer';
 import { Switch, Route, Redirect,withRouter } from 'react-router-dom';
 class Main extends Component {
 
+  constructor(props) {
+    super(props);
 
+  }
 
   render() {
 
@@ -21,7 +24,6 @@ class Main extends Component {
 
         <div>
         <Switch location={this.props.location}>
-                  {/* <Route path='/home' component={HomePage} /> */}
                   <Route exact path='/home' component={() => <Home/>} />
                   <Route exact path='/about' component={() => <About/>} />
                   <Route exact path='/news' component={() => <News/>} />
