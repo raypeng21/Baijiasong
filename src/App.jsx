@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import Main from './components/Main/Main';
+import { HashRouter } from 'react-router-dom'
 
 class App extends Component {
   
@@ -9,7 +10,10 @@ class App extends Component {
 
     return (
           <div className="app">
-          <Main/>
+            <HashRouter>
+              <Main/>
+            </HashRouter>
+
         </div>
   
   
