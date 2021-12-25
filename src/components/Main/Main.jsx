@@ -7,7 +7,7 @@ import Projects from '../project/Projects';
 import Service from '../service/Service';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
-import { Switch, Route, Redirect,withRouter } from 'react-router-dom';
+import { HashRouter, Route, Redirect,withRouter } from 'react-router-dom';
 class Main extends Component {
 
 
@@ -20,15 +20,15 @@ class Main extends Component {
         <Topbar />
 
         <div>
-        <Switch>
+        <HashRouter>
                   <Route path='/home' component={() => <Home/>} />
-                  <Route exact path='/about' component={() => <About/>} />
-                  <Route exact path='/news' component={() => <News/>} />
-                  <Route exact path='/projects' component={() => <Projects/>} />
-                  <Route exact path='/service' component={() => <Service/>} />
-                  <Route exact path='/contact' component={() => <Contact/>} />
+                  <Route path='/about' component={() => <About/>} />
+                  <Route path='/news' component={() => <News/>} />
+                  <Route path='/projects' component={() => <Projects/>} />
+                  <Route path='/service' component={() => <Service/>} />
+                  <Route path='/contact' component={() => <Contact/>} />
                   <Redirect to="/home" />
-        </Switch>
+        </HashRouter>
         </div>
         <Footer />
       </div>
